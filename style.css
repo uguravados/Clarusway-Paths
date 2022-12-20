@@ -5,10 +5,17 @@
   font-size: 19px;
   font-style: italic;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color:rgb(26, 28, 31)
 }
 
 body {
   background-image: #005aa7;
+  background-image: url(./img/img2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
 }
 h1 {
   font-family: "Frijole", cursive;
@@ -72,4 +79,7 @@ button:hover,
 h1:hover,
 h3:hover {
   transform: scale(1.1);
+}
+p,h3,h1{
+  color : whitesmoke
 }
